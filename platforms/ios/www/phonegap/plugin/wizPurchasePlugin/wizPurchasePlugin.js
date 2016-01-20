@@ -45,6 +45,9 @@ cordova.define("jp.wizcorp.phonegap.plugin.wizPurchasePlugin", function(require,
 	    
 	    restoreAll: function (s, f) {
 	        exec(s, f, "wizPurchasePlugin", "restoreAll", []);
+	    },
+	    checkWizPurchase: function(){
+	    	alert("checkWizPurchase method called!");
 	    }
 	};
 
